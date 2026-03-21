@@ -259,6 +259,18 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
+"@iconify/svelte@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@iconify/svelte/-/svelte-5.2.1.tgz#238ba16d0ae1e4697a0561af346cc5ecfbdef23e"
+  integrity sha512-zHmsIPmnIhGd5gc95bNN5FL+GifwMZv7M2rlZEpa7IXYGFJm/XGHdWf6PWQa6OBoC+R69WyiPO9NAj5wjfjbow==
+  dependencies:
+    "@iconify/types" "^2.0.0"
+
+"@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
+  integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
+
 "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.13"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz#6342a19f44347518c93e43b1ac69deb3c4656a1f"
@@ -640,7 +652,7 @@
   dependencies:
     postcss-selector-parser "6.0.10"
 
-"@tailwindcss/vite@^4.1.18":
+"@tailwindcss/vite@^4.2.2":
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@tailwindcss/vite/-/vite-4.2.2.tgz#49240a41691c34b78ed4a80d07a39301f1a5129f"
   integrity sha512-mEiF5HO1QqCLXoNEfXVA1Tzo+cYsrqV7w9Juj2wdUFyW07JRenqMG225MvPwr3ZD9N1bFQj46X7r33iHxLUW0w==
@@ -916,6 +928,11 @@ cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
+
+daisyui@^5.5.19:
+  version "5.5.19"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.5.19.tgz#9aa962243c32c39d8e8f3eb187e48092bcd186fc"
+  integrity sha512-pbFAkl1VCEh/MPCeclKL61I/MqRIFFhNU7yiXoDDRapXN4/qNCoMxeCCswyxEEhqL5eiTTfwHvucFtOE71C9sA==
 
 debug@^4.3.1, debug@^4.3.2, debug@^4.4.3:
   version "4.4.3"
@@ -1776,7 +1793,7 @@ svelte@^5.51.0:
     magic-string "^0.30.11"
     zimmerframe "^1.1.2"
 
-tailwindcss@4.2.2, tailwindcss@^4.1.18:
+tailwindcss@4.2.2, tailwindcss@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.2.2.tgz#688fb0751c8ca9044e890546510a2ee817308e87"
   integrity sha512-KWBIxs1Xb6NoLdMVqhbhgwZf2PGBpPEiwOqgI4pFIYbNTfBXiKYyWoTsXgBQ9WFg/OlhnvHaY+AEpW7wSmFo2Q==
